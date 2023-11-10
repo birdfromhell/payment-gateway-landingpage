@@ -1,5 +1,5 @@
-import useSticky from '@/src/hooks/use-sticky';
-import Offcanvus from '@/src/common/offcanvus';
+import useSticky from '@/hooks/use-sticky';
+import Offcanvus from '@/common/offcanvus';
 import Image from 'next/image';
 import Link from 'next/link';
 import React,{useState} from 'react';

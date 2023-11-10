@@ -1,14 +1,14 @@
-import { CopyRight } from '@/src/common/social-links';
-import EmailTwo from '@/src/svg/email-2';
-import PhoneTwo from '@/src/svg/phone-2';
+import { CopyRight } from '@/common/social-links';
+import EmailTwo from '@/svg/email-2';
+import PhoneTwo from '@/svg/phone-2';
 import Image from 'next/image';
 import Link from 'next/link';
 import React,{useState} from 'react';
 // img import 
 import footer_logo from "../../../public/assets/img/logo/logo-black.png";
-import qr_code from "../../../public/assets/img/footers/dwnld-1.png";
-import i_phone from "../../../public/assets/img/footers/dwnld-2.png";
-import google_ply from "../../../public/assets/img/footers/dwnld-3.png";
+import qr_code from "../../../public/assets/img/footer/dwnld-1.png"
+import i_phone from "../../../public/assets/img/footer/dwnld-2.png";
+import google_ply from "../../../public/assets/img/footer/dwnld-3.png";
 
 
 const footer_content = {
