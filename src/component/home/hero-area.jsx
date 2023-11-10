@@ -79,9 +79,9 @@ const HeroArea = () => {
               </div>
               <div className="tp-hero-2__user p-relative">
                 <h4 className="tp-char-animation-2" >{sub_title}</h4>
-                <div className="tp-hero-2__user-img">
-                  <Image src={users_img} alt="theme-pure" />
-                </div>
+                {/*<div className="tp-hero-2__user-img">*/}
+                {/*  <Image src={users_img} alt="theme-pure" />*/}
+                {/*</div>*/}
                 <div className="tp-hero-2__shape-1">
                   <RoundLine />
                 </div>
