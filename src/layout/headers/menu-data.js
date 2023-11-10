@@ -6,13 +6,6 @@ const menu_data = [
     title: "Home",
     link: "/",
     active: "active",
-    sub_menus: [
-      // { link: "/", title: "Data analytics" },
-      // { link: "/home", title: "Payment Gateway" },
-      // { link: "/home-3", title: "CRM Software" },
-      // { link: "/home-4", title: "Security Software" },
-      // { link: "/home-5", title: "Saas" },
-    ],
   },
   {
     id: 2,
@@ -21,20 +14,6 @@ const menu_data = [
     title: "Pricing",
     link: "/price",
     active: "",
-    sub_menus: [
-      // { link: "/about", title: "About" },
-      // { link: "/service", title: "Service" },
-      // { link: "/service-details", title: "Service Details" },
-      // { link: "/team", title: "Team" },
-      // { link: "/team-details", title: "Team Details" },
-      // { link: "/career", title: "Career" },
-      // { link: "/career-details", title: "Career Details" },
-      // { link: "/integrations", title: "Integrations" },
-      // { link: "/price", title: "Price" },
-      // { link: "/register", title: "Register" },
-      // { link: "/sign-in", title: "Signin" },
-      // { link: "/404", title: "404" },
-    ],
   },
   
   {

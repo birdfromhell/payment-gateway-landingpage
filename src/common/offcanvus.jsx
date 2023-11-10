@@ -26,20 +26,20 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <div className="mobile-menu mean-container">
                         <MobileMenus />
                     </div>
-                    <div className="tpoffcanvas__instagram text-center">
-                    <div className="tpoffcanvas__instagram-title">
-                        <h4>instagram</h4>
-                    </div>  
-                    <Link href="#"><Image src={canvus_img_1}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_2}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_3}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_4}  alt="theme-pure" /></Link>
-                    </div>
+                    {/*<div className="tpoffcanvas__instagram text-center">*/}
+                    {/*<div className="tpoffcanvas__instagram-title">*/}
+                    {/*    <h4>instagram</h4>*/}
+                    {/*</div>  */}
+                    {/*<Link href="#"><Image src={canvus_img_1}  alt="theme-pure" /></Link>*/}
+                    {/*<Link href="#"><Image src={canvus_img_2}  alt="theme-pure" /></Link>*/}
+                    {/*<Link href="#"><Image src={canvus_img_3}  alt="theme-pure" /></Link>*/}
+                    {/*<Link href="#"><Image src={canvus_img_4}  alt="theme-pure" /></Link>*/}
+                    {/*</div>*/}
                     <div className="tpoffcanvas__info text-center">
-                    <h4 className="offcanva-title">we are here</h4>
-                    <Link href="https://www.google.com/maps/@23.506657,90.3443647,7z" target="_blank">
-                        27 Division St, New York, <br />
-                        NY 10002, USA
+                    {/*<h4 className="offcanva-title">we are here</h4>*/}
+                    <Link href="#" target="_blank">
+                        Soekarno Hatta, Bandung, <br />
+                        BDG 402032, INA
                     </Link>
                     </div>
                     <div className="tpoffcanvas__social">
@@ -47,7 +47,6 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                         <Link href="#"><i className="fab fa-twitter"></i></Link>
                         <Link href="#"><i className="fab fa-instagram"></i></Link>
                         <Link href="#"><i className="fab fa-facebook-square"></i></Link>
-                        <Link href="#"><i className="fab fa-dribbble"></i></Link>
                     </div>
                     </div>
                 </div>

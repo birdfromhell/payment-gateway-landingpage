@@ -25,7 +25,9 @@ const payment_content = {
             cls: "2 tpfadeLeft",
             delay: ".3s",
             title: "Scan & Go",
-            des: <>Transform your payment link into a QR code that customers can scan with their <br /> phone to pay.</>,
+            des: <>Pindai & Buka
+                Ubah tautan pembayaran Anda menjadi kode QR yang dapat dipindai oleh pelanggan
+                telepon untuk membayar.</>,
             shapes: [
                 {
                     id: 1, 
@@ -60,7 +62,7 @@ const payment_content = {
             col: "md-6",
             cls: "3 tpfadeRight",
             delay: ".5s",
-            title: "Easily Send Requesrs vai e-mail or SMS",
+            title: "Kirim Permintaan dengan mudah melalui email atau whatsapp",
             des: <>... or copy-paste the link</>,
             shapes: [
                 {
@@ -82,7 +84,7 @@ const payment_content = {
 
     ],
     box_3_title: <>Online Billing & <br /> Invoicing Payments.</>,
-    box_3_des: <>Get paid faster with Online Invoicing <br /> and the Virtual Terminal.</>,
+    box_3_des: <>Dapatkan pembayaran lebih cepat dengan Faktur Online dan Terminal Virtual.</>,
     box_3_btn: "Explore Invoicing Tools",
 
 }

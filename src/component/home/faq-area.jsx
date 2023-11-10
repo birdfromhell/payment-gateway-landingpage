@@ -8,7 +8,7 @@ import img from "../../../public/assets/img/faq/faq-1.png"
 const faq_content = {
     sub_title: "Support",
     title: <>Frequently <br /> Asked Questions</>,
-    description: <>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</>,
+    description: <>Selamat datang di Bagian Pertanyaan yang Sering Diajukan (FAQ) kami! Berikut adalah jawaban untuk beberapa pertanyaan yang sering diajukan oleh pengguna kami:</>,
     btn_text: "Get in Touch",
 }
 const {sub_title, title, description, btn_text }  = faq_content

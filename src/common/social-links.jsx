@@ -86,7 +86,7 @@ const social_links_two = [
     color: "3",
   },
   {
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/",
     target: "_blank",
     icon: "fab fa-linkedin-in",
     color: "4", 
