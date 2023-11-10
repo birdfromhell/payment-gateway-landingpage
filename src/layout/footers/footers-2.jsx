@@ -12,24 +12,11 @@ import google_ply from "../../../public/assets/img/footer/dwnld-3.png";
 
 
 const footer_content = {
-    address: <>1811 Silverside Rd, Wilmington,<br />DE 19810, USA</>,
-    phone: "+806(000)8899",
-    email: "contact@info.com",
+    address: <>Jl. Soekarno Hatta No.KM. 10, Jatisari, Kec. Buahbatu, Kota Bandung, Jawa Barat6<br />BDO 4028, INA</>,
+    phone: "+6234567890",
+    email: "contact@hopay.id",
     download: "Download App", 
     footer_lisks : [
-        {
-            id: 1,
-            cls: "footers-col-2-2",
-            title: "Solutions",
-            delay: ".5s",
-            links: [
-                {name: "Payments", link: "#"},
-                {name: "Advances", link: "#"},
-                {name: "Online Checkout", link: "#"},
-                {name: "Dashboard", link: "#"},
-                {name: "Get Started", link: "#"}, 
-            ]
-        },
         {
             id: 2,
             cls: "footers-col-2-3",
@@ -127,9 +114,9 @@ const FooterTwo = () => {
                   <div className="tp-footer__widget footer-widget-2 footer-col-2-4">
                      <h4 className="tp-footer__widget-title">{download}</h4>
                      <div className="tp-footer__download-box d-flex align-items-center">
-                        <div className="tp-footer__qrcode mr-15">
-                        <Link href="#"> <Image src={qr_code} alt="them-pure"/></Link>
-                        </div>
+                        {/*<div className="tp-footer__qrcode mr-15">*/}
+                        {/*<Link href="#"> <Image src={qr_code} alt="them-pure"/></Link>*/}
+                        {/*</div>*/}
                         <div className="tp-footer__app">
                            <Link href="#"><Image className="mb-15" src={i_phone} alt="them-pure"/></Link>
                         <Link href="#"><Image src={google_ply} alt="them-pure"/></Link>
@@ -169,18 +156,12 @@ const FooterTwo = () => {
                         <ul>
                            <li>
                               <button id="tp-copyright__lang-toggle" onClick={() => oppenLan()} >
-                                 <span>English (US)<i className="fal fa-angle-down"></i></span>
+                                 <span>Indonesia<i className="fal fa-angle-down"></i></span>
                               </button>
                               {isOppen &&
                               <ul className={`tp-copyright__lang-submenu ${isOppen && "open"}`}>
                                  <li>
-                                    <Link href="#">Arabic</Link>
-                                 </li>
-                                 <li>
-                                    <Link href="#">Spanish</Link>
-                                 </li>
-                                 <li>
-                                    <Link href="#">Mandarin</Link>
+                                    <Link href="#">English (US)</Link>
                                  </li>
                               </ul>
                               }

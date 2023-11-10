@@ -5,7 +5,8 @@ import Link from 'next/link';
 import React,{useState} from 'react';
 import NavMenu from './nav-menu';
 
-import white_logo from "../../../public/assets/img/logo/logo-white.png"
+// import white_logo from "../../../public/assets/img/logo/logo-white.png"
+import white_logo from "../../../public/assets/img/logo/logo-white-01.png"
 import black_logo from "../../../public/assets/img/logo/logo-black.png" 
 
 const hero_content = {
@@ -34,7 +35,7 @@ const HeaderTwo = () => {
                         <div className="col-xl-7 col-lg-7 d-none d-lg-block">
                            <div className="tp-header-2__main-menu text-center">
                               <nav id="mobile-menu">
-                                 <NavMenu /> 
+                                 <NavMenu />
                               </nav>
                            </div>
                         </div>

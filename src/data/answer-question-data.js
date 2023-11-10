@@ -1,9 +1,8 @@
 const answer_question_data = [
   {
     id: 1,
-    question: "Why should I choose Softec?",
-    answer: <>The Softec Shop is built right into your account dashboard, and is accessible
-          immediately after signing up. </> ,
+    question: "Bagaimana proses transaksi menggunakan gateway pembayaran di website ini?",
+    answer: <>Pilih produk atau layanan yang diinginkan. Setelahnya, Anda akan diarahkan ke halaman pembayaran. Di sana, lengkapi detail pembayaran Anda, dan cukup klik tombol "Bayar". Gateway pembayaran kami akan segera dan aman memproses transaksi Anda secara efisien.</> ,
     accordion_id: "headingOne",
     collapsed: "collapsed",
     data_bs_target: "#collapseOne",
@@ -12,9 +11,8 @@ const answer_question_data = [
   },
   {
     id: 2,
-    question: "Do I need to change banks??",
-    answer: <>The Softec Shop is built right into your account dashboard, and is accessible
-          immediately after signing up. </> ,
+    question: "Seberapa amankah penggunaan gateway pembayaran?",
+    answer: <>Keamanan adalah prioritas utama kami. Gateway pembayaran kami menggunakan enkripsi tingkat tinggi untuk melindungi informasi pembayaran Anda. Kami juga mematuhi standar keamanan industri untuk memastikan transaksi yang aman dan terjamin.</> ,
     accordion_id: "headingTwo",
     collapsed: "",
     data_bs_target: "#collapseTwo",
@@ -26,9 +24,8 @@ const answer_question_data = [
   },
   {
     id: 3,
-    question: "How can I order equipment?",
-    answer: <>The Softec Shop is built right into your account dashboard, and is accessible
-    immediately after signing up. </> ,
+    question: "Metode pembayaran apa yang didukung?",
+    answer: <>Kami mendukung berbagai metode pembayaran, termasuk kartu kredit, transfer bank, dan opsi pembayaran digital. Dengan opsi ini, kami berusaha memberikan kenyamanan maksimal bagi pengguna.</> ,
     accordion_id: "headingThree",
     collapsed: "collapsed",
     data_bs_target: "#collapseThree",
@@ -38,9 +35,8 @@ const answer_question_data = [
   },
   {
     id: 4,
-    question: "Do you offer volume discounts?",
-    answer: <>The Softec Shop is built right into your account dashboard, and is accessible
-          immediately after signing up. </> ,
+    question: "Cara menangani kendala teknis?",
+    answer: <>Hubungi dukungan 24/7 melalui chat atau email untuk bantuan cepat dan efisien.</> ,
     accordion_id: "headingFour",
     collapsed: "collapsed",
     data_bs_target: "#collapseFour",
@@ -50,9 +46,8 @@ const answer_question_data = [
   },
   {
     id: 5,
-    question: "How does signing up work?",
-    answer: <>The Softec Shop is built right into your account dashboard, and is accessible
-    immediately after signing up. </> ,
+    question: "Apakah ada biaya tambahan?",
+    answer: <>Biaya transparan ditampilkan sebelum pembayaran tanpa biaya tersembunyi.</> ,
     accordion_id: "headingFive",
     collapsed: "collapsed",
     data_bs_target: "#collapseFive",

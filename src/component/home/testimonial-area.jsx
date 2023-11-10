@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Slider from 'react-slick'; 
 
 
-// slider img import 
 import slider_img_1 from "../../../public/assets/img/testimonial/testi-icon-2-1.png";
 import slider_img_2 from "../../../public/assets/img/testimonial/testi-icon-2-2.png";
 import slider_img_3 from "../../../public/assets/img/testimonial/testi-icon-2-3.png";
@@ -16,25 +15,25 @@ const slider_data  = [
     {
         id: 1,
         img: slider_img_1,
-        name: "Lana Rey",
+        name: "Ababil Mustaqim",
         job: "Founder & Leader",
-        info: <>"Is it possible to Love your credit card processor? with Softec, yes!"</>,
+        info: <>"Sebagai pemilik bisnis online, saya sangat puas dengan layanan Hopay. Mereka menyediakan solusi pembayaran yang aman dan efisien untuk bisnis saya. Proses integrasi sangat mudah, dan transaksi pembayaran berlangsung tanpa kendala. Hopay telah membantu meningkatkan kepercayaan pelanggan saya dan mengoptimalkan proses pembayaran secara keseluruhan"</>,
 
     },
     {
         id: 2,
         img: slider_img_2,
-        name: "J. McGhee",
-        job: "Founder & Leader",
-        info: <>"Is it possible to Love your credit card processor? with Softec, yes!"</>,
+        name: "Gilang Eka",
+        job: "UMKM",
+        info: <>"Sebagai pengguna Hopay, saya sangat senang dengan kemudahan penggunaan platform ini. Transaksi saya menjadi lebih cepat dan lebih nyaman. Fitur keamanan yang canggih memberi saya keyakinan bahwa informasi pembayaran saya selalu terlindungi. Hopay telah membantu menyederhanakan pengalaman pembayaran online saya, dan saya sangat merekomendasikannya kepada teman dan keluarga"</>,
 
     },
     {
         id: 3,
         img: slider_img_3,
-        name: "Michael H.",
-        job: "Founder & Leader",
-        info: <>"Is it possible to Love your credit card processor? with Softec, yes!"</>,
+        name: "Raditya Ghazy",
+        job: "Pemilik Online Shop",
+        info: <>"Hopay telah menjadi mitra yang tak ternilai untuk bisnis e-commerce kami. Dengan layanan payment gateway yang andal, kami dapat menerima pembayaran dari pelanggan dengan mudah. Antarmuka pengguna yang intuitif membuat manajemen transaksi dan pelacakan pembayaran menjadi lebih efisien. Hopay tidak hanya memberikan layanan pembayaran yang handal tetapi juga berperan dalam meningkatkan konversi penjualan kami."</>,
 
     },
     {

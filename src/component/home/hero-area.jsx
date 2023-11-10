@@ -20,16 +20,15 @@ import hero_shape_5 from "../../../public/assets/img/hero/hero-shape-2-2.png";
 
 // hero_content
 const hero_content = {
-  bg_img: "/assets/img/hero/hero-bg-2.png",
+  bg_img: "/assets/img/hero/bg-01.png",
   scroll_btn: "Scroll Down",
-  title: <><i><i className="child-1">The next</i> </i>{" "}
-  <i><i className="child-1">generation</i> </i>{" "}
-  <i><i className="child-1">payment</i> </i>{" "}
-  <i><i className="child-1">ways.</i></i>
+  title: <><i><i className="child-1">Transaksi</i> </i>{" "}
+  <i><i className="child-1">Mudah</i> </i>{" "}
+  <i><i className="child-1">Dengan</i> </i>{" "}
+  <i><i className="child-1">Hopay</i></i>
   </>,
   btn_text: "Get Started For Free",
-  sub_title: <>Over<span>5Ok+ Client</span> all over the world</>,
-  
+  sub_title: <>Over<span>10k+ Client</span> all over the world</>,
 }
 const {
   bg_img, 

@@ -22,7 +22,7 @@ const HomeTwo = () => {
       <PaymentArea />
       <PaymentMethodArea />
       <ServiceArea />
-      <OpenAccountArea />
+      {/*<OpenAccountArea />*/}
       <TestimonialArea />
       <FaqArea />
       <CtaArea /> 
