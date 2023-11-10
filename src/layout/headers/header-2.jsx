@@ -5,7 +5,6 @@ import Link from 'next/link';
 import React,{useState} from 'react';
 import NavMenu from './nav-menu';
 
-// import white_logo from "../../../public/assets/img/logo/logo-white.png"
 import white_logo from "../../../public/assets/img/logo/logo-white.png"
 import black_logo from "../../../public/assets/img/logo/logo-black.png" 
 

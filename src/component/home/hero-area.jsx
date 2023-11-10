@@ -20,7 +20,7 @@ import hero_shape_5 from "../../../public/assets/img/hero/hero-shape-2-2.png";
 
 // hero_content
 const hero_content = {
-  bg_img: "/assets/img/hero/bg-01.png",
+  bg_img: "/assets/img/hero/hero-bg-2.png",
   scroll_btn: "Scroll Down",
   title: <><i><i className="child-1">Transaksi</i> </i>{" "}
   <i><i className="child-1">Mudah</i> </i>{" "}
