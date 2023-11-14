@@ -41,8 +41,7 @@ const slider_data  = [
         img: slider_img_4,
         name: "Lana Rey",
         job: "Founder & Leader",
-        info: <>"Is it possible to Love your credit card processor? with Softec, yes!"</>,
-
+        info: <>"Hopay telah menjadi mitra yang tak ternilai untuk bisnis e-commerce kami. Dengan layanan payment gateway yang andal, kami dapat menerima pembayaran dari pelanggan dengan mudah. Antarmuka pengguna yang intuitif membuat manajemen transaksi dan pelacakan pembayaran menjadi lebih efisien. Hopay tidak hanya memberikan layanan pembayaran yang handal tetapi juga berperan dalam meningkatkan konversi penjualan kami."</>,
     }, 
 ]
 
